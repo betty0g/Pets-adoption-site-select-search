@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet friends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <img class="icon" src="icon (3).png">
+    <h1>
+        Friends With Paws
+    </h1>
+</div>
+
+<div class="contect">
+    <div class="selectors">
+
+    <span>Select pet kind:</span>
+    <select id="typeSelect">
+        <option value="all">All</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+    </select>
+
+    <span>Select gender:</span>
+    <select id="genderSelect">
+        <option value="all">All</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+    </select>
+
+    <span>Select age:</span>
+    <select id="ageSelect">
+        <option value="all">All</option>
+        <option value="0-year">0 to year</option>
+        <option value="1-3">1 to 3 years</option>
+        <option value="3-5">3 to 5 years</option>
+        <option value="5-all">5 to all</option>
+    </select>
+
+    <button id="search">Search</button>
+
+    </div>
+
+    <div class="results" id="results">
+
+    </div>
+ </div>
+    <script src="main.js"></script>
+</body>
+</html>

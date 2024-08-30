@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    font-family: "League Spartan", sans-serif;
+    background-color: rgb(248, 245, 245);
+    color: rgb(65, 58, 58);
+}
+.header {
+    height: 65px;
+    width: 100%;
+    border-bottom: 1px solid rgba(199, 199, 199, 0.61);
+    display: inline-flex;
+    padding: 4px;
+}
+.icon {
+  width: 63px;
+  height: 60px;
+  margin: 0%;
+}
+
+h1 {
+    font-size: 33px; 
+    margin: 17px;
+    margin-left: 3px;
+}
+.contect {
+    
+    width: 1100px;
+    margin: auto;
+}
+.results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+}
+img {
+    
+    width: 290px;
+    height: 290px;
+    border-radius: 26px;
+    display: block;
+    margin:  25px 25px 0px 25px;
+       
+}
+.pet-details {
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    height: 393px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    box-shadow: rgba(122, 131, 139, 0.349) 0px 8px 24px;
+    cursor: pointer;
+    text-align: center;
+}
+.pet-details:hover {
+    box-shadow: rgba(33, 36, 39, 0.397) 0px 12px 27px;
+}
+
+h2, span {
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.selectors {
+    margin-top: 33px;
+    text-align: center;
+    height: 90px;
+    font-size: 25px;
+    color: rgb(61, 60, 60);
+}
+
+#typeSelect, #ageSelect, #genderSelect {
+    padding: 8px;
+    width: 153px;
+    height: auto;
+    margin-left: 7px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 23px;
+    border-radius: 7px;
+    border: 1px rgba(128, 128, 128, 0.308) solid;
+    box-shadow: rgba(122, 131, 139, 0.253) 0px 8px 24px;
+}
+
+#search {
+    color: rgb(61, 60, 60);
+    background-color: rgb(255, 247, 138);
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 23px;
+    width: 105px;
+    height: 40px;
+    box-shadow: rgba(122, 131, 139, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    border: 1px rgba(128, 128, 128, 0.301) solid;
+}
+
+#search:hover {
+    background-color: rgb(190, 231, 115);
+}
